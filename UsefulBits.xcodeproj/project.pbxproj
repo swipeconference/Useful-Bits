@@ -617,6 +617,62 @@
 			};
 			name = Release;
 		};
+		7585D4E91400918C00A2A54C /* UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = UAT;
+		};
+		7585D4EA1400918C00A2A54C /* UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsefulBits/UsefulBits-Prefix.pch";
+				INFOPLIST_FILE = "UsefulBits/UsefulBits-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/FlurryLib\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Core.build/Debug-iphoneos/Three20Core.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Core.build/Debug-iphoneos/Three20Core.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Network.build/Debug-iphoneos/Three20Network.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Network.build/Debug-iphoneos/Three20Network.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Style.build/Debug-iphoneos/Three20Style.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20Style.build/Debug-iphoneos/Three20Style.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UI.build/Debug-iphoneos/Three20UI.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UI.build/Debug-iphoneos/Three20UI.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UICommon.build/Debug-iphoneos/Three20UICommon.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UICommon.build/Debug-iphoneos/Three20UICommon.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UINavigator.build/Debug-iphoneos/Three20UINavigator.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/UsefulBits/Source/quickie/Third Party/Three20/Build/Three20UINavigator.build/Debug-iphoneos/Three20UINavigator.build/Objects-normal/armv7\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = UAT;
+		};
+		7585D4EB1400918C00A2A54C /* UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = UniversalFramework;
+			};
+			name = UAT;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,6 +680,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A3F6E4D13825AEA001D960B /* Debug */,
+				7585D4E91400918C00A2A54C /* UAT */,
 				0A3F6E4E13825AEA001D960B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -633,6 +690,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A3F6E5013825AEA001D960B /* Debug */,
+				7585D4EA1400918C00A2A54C /* UAT */,
 				0A3F6E5113825AEA001D960B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -642,6 +700,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A3F6E5313825AEA001D960B /* Debug */,
+				7585D4EB1400918C00A2A54C /* UAT */,
 				0A3F6E5413825AEA001D960B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
